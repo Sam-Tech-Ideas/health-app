@@ -56,7 +56,6 @@ const images =[
     </div>
     <h2 className='p-2 font-bold'>Health Needs</h2>
              
-
 <div className=' flex justify-center items-center'> 
 {
  images.map(({id,images})=>(
@@ -68,7 +67,7 @@ const images =[
 </div>
 
 
-<h2 className='p-2 font-bold'>Nearby Doctor</h2>
+<h2 className='p-2 font-bold text-lg'>Nearby Doctor</h2>
 <div className='flex'>
 <img src={image} alt=""  height="100px" width="90px" className='m-3'/>
 <div className='pt-6'>
